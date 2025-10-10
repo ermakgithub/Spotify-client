@@ -23,7 +23,6 @@ class CustomField extends StatelessWidget {
         return null;
       },
       obscureText: isObscureText,
-      obscuringCharacter: '*',
     );
   }
 }
