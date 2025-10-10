@@ -1,0 +1,13 @@
+# Tell GitHub Linguist to ignore platform-specific code
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+
+# Optionally ignore build scripts
+CMakeLists.txt linguist-vendored
+
+# Focus on Dart
+lib/** linguist-language=Dart
